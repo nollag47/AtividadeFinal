@@ -8,12 +8,16 @@ Quando o código precisa criar cópias de algum objeto em tempo de execução;
 Esse padrão pode ser usado em sistemas que precisam ser independentes de como os componentes são criados, configurados e apresentados.
 
 Estrutura:
+Prototype: uma interface/classe abstrata que declara o método de clonagem; 
+Prototype concreto: implementação de um prototype;
+Cliente: cria um novo objeto através de um prototype.
 
 Relações com outros padrões:
 
 Em um sistema que usa o padrão fábrica abstrata para criar objetos, a hierarquia de classes pode ser muito complexa, e o Prototype é uma alternativa mais simples porque faz a mesma coisa com menos classes.
 
 Exemplo:
+Infelizmente não conseguimos fazer.
 
 Vantagens:
 
@@ -21,6 +25,8 @@ Diminuar a repetição de linhas em seu código;
 A prototipagem é muito útil quando o processo de criação de  produtos é muito caro ou mais caro  que a clonagem.
 
 Desvantagens:
+Clonar objetos complexos que têm referências circulares pode ser bem complicado.
+Caso o código não utilize muitos objetos o prototype não será eficaz.
 
 Conclusão:
 
