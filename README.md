@@ -1,4 +1,5 @@
 Descrição:
+
 Prototype é um padrão que pertence ao grupo de padrões de criação, ele serve para criar uma instância protótipo que dá origem a objeto que pode ser clonado diversas vezes.
 
 Quando é usado:
