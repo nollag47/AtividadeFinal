@@ -27,6 +27,7 @@ Diminuar a repetição de linhas em seu código;
 A prototipagem é muito útil quando o processo de criação de  produtos é muito caro ou mais caro  que a clonagem.
 
 Desvantagens:
+
 Clonar objetos complexos que têm referências circulares pode ser bem complicado.
 Caso o código não utilize muitos objetos o prototype não será eficaz.
 
