@@ -5,7 +5,7 @@ Prototype é um padrão que pertence ao grupo de padrões de criação, ele serv
 Quando é usado:
 
 Quando queremos evitar ter que implementar subclasses de uma classe principal para cada tipo de objeto;
-Diminuir o uso de if e else;
+Quando queremos diminuir o uso de if e else;
 Quando o código precisa criar cópias de algum objeto em tempo de execução; 
 Esse padrão pode ser usado em sistemas que precisam ser independentes de como os componentes são criados, configurados e apresentados.
 
