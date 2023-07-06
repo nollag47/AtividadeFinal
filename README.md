@@ -1,5 +1,3 @@
-template
-
 Descrição:
 
 Quando é usado:
@@ -13,3 +11,5 @@ Exemplo:
 Vantagens:
 
 Desvantagens:
+
+Conclusão:
