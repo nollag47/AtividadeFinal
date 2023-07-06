@@ -10,6 +10,7 @@ Quando o código precisa criar cópias de algum objeto em tempo de execução;
 Esse padrão pode ser usado em sistemas que precisam ser independentes de como os componentes são criados, configurados e apresentados.
 
 Estrutura:
+
 Prototype: uma interface/classe abstrata que declara o método de clonagem; 
 Prototype concreto: implementação de um prototype;
 Cliente: cria um novo objeto através de um prototype.
